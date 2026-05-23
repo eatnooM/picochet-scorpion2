@@ -1,26 +1,22 @@
-# Picochet-TC1
+# Picochet-Scorpion2
 
-A dedicated microcontroller board for use with the OpenFIRE firmware, tailored to fit in a Namco Time Crisis 1-3 or Point Blank arcade gun.
+A dedicated microcontroller board for use with the OpenFIRE firmware, made to fit in the wonderfully comfortable Blaze Scorpion 2 shell
 
-<img width="1440" height="1080" alt="Picture of Picochet board" src="https://github.com/user-attachments/assets/ef1a62d1-5c59-4df6-a4b2-f25eeb8ebf82" />
+Picking up where the Picochet-TC1 left off, this board removes the solenoid feedback circuit and adds support for a few extra goodies that might make sense to add in a Scorpion 2, such as Neopixel LED (I have a 3D printable light pipe that takes the place of one of the wheels to adjust the laser in the stock Scorpion 2) and an analog stick (no plans to physically accommodate this in the shell but if you reckon you can make one fit, go nuts)
 
-The goal of this project is to allow for clean builds in these guns while retaining support for driving the gun's solenoid
-(not a big fan of multiple boards floating around in the shell)
-and to serve as a base for future Picochet boards in other light guns where a carrier board using a Raspberry Pi Pico or similar would be tricky or impossible.
-
-## BOM
+##  BOM
 
 |                  Reference                 |    Part desc / number    | Quantity |                               Notes                               |
 |--------------------------------------------|--------------------------|----------|-------------------------------------------------------------------|
 | C1,C5,C19,C21                              | 10uF 0805 - [LCSC](https://www.lcsc.com/product-detail/C95841.html)          | 4        |                                                                   |
 | C6,C7,C9,C10                               | 4.7uF 0402 - [LCSC](https://www.lcsc.com/product-detail/C23733.html)         | 4        |                                                                   |
-| C8,C11,C12,C13,C14,C15,C16,C17,C18,C20,C26 | 0.1uF 0402 - [LCSC](https://www.lcsc.com/product-detail/C307331.html)         | 11       | May want to replace C26 with a THT cap directly on the TMP36 pins |
+| C8,C11,C12,C13,C14,C15,C16,C17,C18,C20 | 0.1uF 0402 - [LCSC](https://www.lcsc.com/product-detail/C307331.html)         | 10       |                                                                   |
 | C3,C4                                      | 15pF 0402 - [LCSC](https://www.lcsc.com/product-detail/C86285.html)          | 2        |                                                                   |
 | D1                                         | SOD-323F Schottky - [LCSC](https://www.lcsc.com/product-detail/C552826.html)  | 1        |                                                                   |
-| D2                                         | RBR3LAM60B - [LCSC](https://www.lcsc.com/product-detail/C509954.html)         | 1        | Can also be added at D3 if your solenoid has no flyback diode     |
+| D2                                         | RBR3LAM60B - [LCSC](https://www.lcsc.com/product-detail/C509954.html)         | 1        |                                                                   |
 | F1                                         | PPTC-6V 500mA - [LCSC](https://www.lcsc.com/product-detail/C269104.html)      | 1        |                                                                   |
 | L1                                         | AOTA-B201610S3R3 - [LCSC](https://www.lcsc.com/product-detail/C42411119.html)   | 1        |                                                                   |
-| Q1,Q2                                      | DMT12H060LFDF - [LCSC](https://www.lcsc.com/product-detail/C5711753.html)      | 2        |                                                                   |
+| Q1                                         | DMT12H060LFDF - [LCSC](https://www.lcsc.com/product-detail/C5711753.html)      | 1        |                                                                   |
 | R2,R4,R6,R14,R16                           | 1K 0402 - [LCSC](https://www.lcsc.com/product-detail/C11702.html)            | 5        |                                                                   |
 | R15,R17                                    | 100K 0402 - [LCSC](https://www.lcsc.com/product-detail/C60491.html)          | 2        |                                                                   |
 | R5                                         | 33Ω 0402 - [LCSC](https://www.lcsc.com/product-detail/C138002.html)           | 1        |                                                                   |
@@ -33,8 +29,7 @@ and to serve as a base for future Picochet boards in other light guns where a ca
 Optional components (see Notes): 
 |                  Reference                 |    Part desc / number     | Quantity |                               Notes                               |
 |--------------------------------------------|---------------------------|----------|-------------------------------------------------------------------|
-| TMP                                        | TMP36 - [LCSC](https://www.lcsc.com/product-detail/C5692995.html)              | 1        | Recommended - run wires to this and attach to solenoid            |
-| C24,C25                                    | 0.1uF 0805 - [LCSC](https://www.lcsc.com/product-detail/C1711.html)         | 2        | Installation not recommended                                      |
+| C24   | 0.1uF 0805 - [LCSC](https://www.lcsc.com/product-detail/C1711.html)         | 1        | Installation not recommended                                      |
 
 
 
