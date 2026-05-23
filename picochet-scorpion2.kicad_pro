@@ -98,6 +98,14 @@
           ""
         ],
         [
+          "missing_courtyard|153600000|80300000|ecc6d434-a542-4e3b-a271-0c93d8e06294|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "solder_mask_bridge|107671478|86562540|bf9afeaa-7583-4a11-81fd-d22a25d4439a|a19a493d-a494-4683-9a27-94845e131c7d",
+          ""
+        ],
+        [
           "solder_mask_bridge|107750000|85949022|bf9afeaa-7583-4a11-81fd-d22a25d4439a|a19a493d-a494-4683-9a27-94845e131c7d",
           ""
         ],
@@ -106,15 +114,15 @@
           ""
         ],
         [
-          "solder_mask_bridge|107834218|87018247|bf9afeaa-7583-4a11-81fd-d22a25d4439a|a19a493d-a494-4683-9a27-94845e131c7d",
+          "solder_mask_bridge|107750000|85949022|fbedded4-3536-4f13-8501-94a8a8bc10b5|63788c78-9592-4486-ac40-5e6199a0491e",
           ""
         ],
         [
-          "solder_mask_bridge|112450000|85949022|fbedded4-3536-4f13-8501-94a8a8bc10b5|436f3837-d3d9-4a21-893a-a73deccf2172",
+          "solder_mask_bridge|107750000|85949022|fbedded4-3536-4f13-8501-94a8a8bc10b5|ab2ae9cc-68ef-4b51-b0fb-336f4c5b9f86",
           ""
         ],
         [
-          "solder_mask_bridge|112450000|85949022|fbedded4-3536-4f13-8501-94a8a8bc10b5|e3db9c06-26bd-47b4-9e0b-d498708031e4",
+          "solder_mask_bridge|108008734|87322186|fbedded4-3536-4f13-8501-94a8a8bc10b5|ab2ae9cc-68ef-4b51-b0fb-336f4c5b9f86",
           ""
         ],
         [
@@ -630,9 +638,9 @@
         "via_drill": 0.25
       },
       {
-        "clearance": 0.2,
-        "diff_pair_gap": 0.15,
-        "diff_pair_width": 0.3,
+        "clearance": 0.2032,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.2863,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB Data",
