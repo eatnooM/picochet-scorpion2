@@ -102,7 +102,7 @@
           ""
         ],
         [
-          "solder_mask_bridge|107671478|86562540|bf9afeaa-7583-4a11-81fd-d22a25d4439a|a19a493d-a494-4683-9a27-94845e131c7d",
+          "solder_mask_bridge|107596049|85956942|bf9afeaa-7583-4a11-81fd-d22a25d4439a|a19a493d-a494-4683-9a27-94845e131c7d",
           ""
         ],
         [
@@ -122,19 +122,15 @@
           ""
         ],
         [
-          "solder_mask_bridge|108008734|87322186|fbedded4-3536-4f13-8501-94a8a8bc10b5|ab2ae9cc-68ef-4b51-b0fb-336f4c5b9f86",
+          "solder_mask_bridge|112383618|84930605|fbedded4-3536-4f13-8501-94a8a8bc10b5|ab2ae9cc-68ef-4b51-b0fb-336f4c5b9f86",
           ""
         ],
         [
-          "starved_thermal|162649298|72247530|22091440-2e7b-4edf-b9f0-a5ff40dd9a77|cf84158f-0745-4362-b2c0-28c5bc546d05|In2.Cu",
+          "starved_thermal|140730756|78939644|e3db9c06-26bd-47b4-9e0b-d498708031e4|b915f291-952e-4886-9b12-c27220826af1|B.Cu",
           ""
         ],
         [
-          "starved_thermal|162649298|72247530|e3db9c06-26bd-47b4-9e0b-d498708031e4|cf84158f-0745-4362-b2c0-28c5bc546d05|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|162649298|72247530|e3db9c06-26bd-47b4-9e0b-d498708031e4|cf84158f-0745-4362-b2c0-28c5bc546d05|F.Cu",
+          "starved_thermal|142230757|78939644|e3db9c06-26bd-47b4-9e0b-d498708031e4|a27dd1b6-4bcc-4e71-905a-f64d6b37f8bc|B.Cu",
           ""
         ]
       ],
@@ -209,7 +205,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.25,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
