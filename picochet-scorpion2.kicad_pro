@@ -86,51 +86,11 @@
           ""
         ],
         [
-          "isolated_copper|145561162|77108968|79d4c0b7-77c1-4f0e-af69-de46b0fb9f4e|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|140730756|79507144|3c1c0e6b-89c6-4438-97d6-f0f97928dc79|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|142230757|79507144|dcd285f2-5f4d-4272-b716-4734c31a5d4c|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "missing_courtyard|153600000|80300000|ecc6d434-a542-4e3b-a271-0c93d8e06294|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "solder_mask_bridge|107596049|85956942|bf9afeaa-7583-4a11-81fd-d22a25d4439a|a19a493d-a494-4683-9a27-94845e131c7d",
-          ""
-        ],
-        [
-          "solder_mask_bridge|107750000|85949022|bf9afeaa-7583-4a11-81fd-d22a25d4439a|a19a493d-a494-4683-9a27-94845e131c7d",
-          ""
-        ],
-        [
           "solder_mask_bridge|107750000|85949022|bf9afeaa-7583-4a11-81fd-d22a25d4439a|bd15ac41-58f6-497a-9ff0-e0dc8ab9ef81",
           ""
         ],
         [
           "solder_mask_bridge|107750000|85949022|fbedded4-3536-4f13-8501-94a8a8bc10b5|63788c78-9592-4486-ac40-5e6199a0491e",
-          ""
-        ],
-        [
-          "solder_mask_bridge|107750000|85949022|fbedded4-3536-4f13-8501-94a8a8bc10b5|ab2ae9cc-68ef-4b51-b0fb-336f4c5b9f86",
-          ""
-        ],
-        [
-          "solder_mask_bridge|112383618|84930605|fbedded4-3536-4f13-8501-94a8a8bc10b5|ab2ae9cc-68ef-4b51-b0fb-336f4c5b9f86",
-          ""
-        ],
-        [
-          "starved_thermal|140730756|78939644|e3db9c06-26bd-47b4-9e0b-d498708031e4|b915f291-952e-4886-9b12-c27220826af1|B.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|142230757|78939644|e3db9c06-26bd-47b4-9e0b-d498708031e4|a27dd1b6-4bcc-4e71-905a-f64d6b37f8bc|B.Cu",
           ""
         ]
       ],
@@ -267,7 +227,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -713,7 +674,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -811,6 +772,204 @@
           "label": "LCSC Part #",
           "name": "LCSC Part #",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Input Capacitance(Ciss)",
+          "name": "Input Capacitance(Ciss)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Gate Threshold Voltage (Vgs(th))",
+          "name": "Gate Threshold Voltage (Vgs(th))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFG",
+          "name": "MFG",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFGPN",
+          "name": "MFGPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Non-Repetitive Peak Forward Surge Current",
+          "name": "Non-Repetitive Peak Forward Surge Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Number",
+          "name": "Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Junction Temperature Range",
+          "name": "Operating Junction Temperature Range",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Output Capacitance(Coss)",
+          "name": "Output Capacitance(Coss)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pd - Power Dissipation",
+          "name": "Pd - Power Dissipation",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Power(Watts)",
+          "name": "Power(Watts)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDS(on)",
+          "name": "RDS(on)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Resistance",
+          "name": "Resistance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Leakage Current (Ir)",
+          "name": "Reverse Leakage Current (Ir)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Transfer Capacitance (Crss@Vds)",
+          "name": "Reverse Transfer Capacitance (Crss@Vds)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Stock",
+          "name": "Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Temperature Coefficient",
+          "name": "Temperature Coefficient",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "unit_price_10",
+          "name": "unit_price_10",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "unit_price_100",
+          "name": "unit_price_100",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "unit_price_1000",
+          "name": "unit_price_1000",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage - DC Reverse(Vr)",
+          "name": "Voltage - DC Reverse(Vr)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage - Forward(Vf@If)",
+          "name": "Voltage - Forward(Vf@If)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating",
+          "name": "Voltage Rating",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage-Supply(Max)",
+          "name": "Voltage-Supply(Max)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Capacitance",
+          "name": "Capacitance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current - Continuous Drain(Id)",
+          "name": "Current - Continuous Drain(Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Current - Rectified",
+          "name": "Current - Rectified",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Diode Configuration",
+          "name": "Diode Configuration",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain to Source Voltage",
+          "name": "Drain to Source Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gate Charge(Qg)",
+          "name": "Gate Charge(Qg)",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -869,7 +1028,7 @@
         "uuid": "8ade9007-5397-4e02-9b16-99eeae4d8ac5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C25,#PWR51",
     "variants": []
   },
   "sheets": [

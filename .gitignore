@@ -1,33 +1,11 @@
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 
-# Temporary files
-*.000
-*.bak
-*.bck
-*.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*.kicad_prl
-*.sch-bak
-*~
-_autosave-*
 *auto_saved_files*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
-
-# Exported BOM files
-*.xml
-*.csv
 
 # Project-specific
 *gerbers/*
@@ -37,3 +15,223 @@ fp-info-cache
 bom/*
 fabrication-toolkit-options.json
 ibom.config.ini
+
+# ============================================================
+# KiCAD Project Files
+# ============================================================
+
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.tmp
+*-backups
+*.lck
+*.ini
+
+# KiCad autosave and backup files
+_autosave-*
+_autosave*
+#auto_saved_files#
+*.sch-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_pro-bak
+*.kicad_prl-bak
+*-save.pro
+*-save.kicad_pcb
+*~
+
+# Lock files
+*.lck
+
+# KiCad project and preference files (local settings)
+*.kicad_prl
+*.kicad_pro-bak
+
+# Footprint cache - speeds up loading but can be regenerated
+fp-info-cache
+
+# Windows-specific files
+*Zone.Identifier
+*.lnk
+
+# Netlist files (exported from Eeschema) - usually regenerated
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files (regenerated from design)
+*.xml
+*.csv
+
+# Kibot files (your existing patterns)
+kibot_*.kicad_pcb
+kibot_*.kicad_dru
+kibot_*.kicad_prl
+kibot_*.kicad_pro
+
+# Gerber/PCB manufacturing files (regenerated)
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gp1
+*.gp2
+*.ger
+*.dra
+*.pem
+*.pos
+
+# PDF exports (regenerated)
+*.pdf
+
+# SVG exports (regenerated)
+*.svg
+
+# HTML BOM/reports (regenerated)
+*.html
+
+# ZIP archives (regenerated)
+*.zip
+
+# 3D model exports
+*.wrl
+*.step
+*.stp
+
+# ============================================================
+# VS Code (Visual Studio Code) - macOS
+# ============================================================
+
+# VS Code workspace settings (local)
+.vscode/*.json
+!vscode/settings.json
+
+# VS Code internal files
+.vscode-diff
+.vscodeignore
+
+# Editor state and cache
+.vscode/*/cache
+.vscode/*/History
+.vscode/*/storage
+
+# Lock files
+.vscode/*/lock
+.vscode/*/node-lock.json
+
+# OS-specific VS Code files
+.vscode/*/رجحخ
+
+# ============================================================
+# macOS System Files
+# ============================================================
+
+# AppleDouble files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Icon files
+_Icon
+
+# Thumb cache
+.thumbnail
+.thumbs
+
+# Trash
+.Trash-*
+
+# Spotlight
+.Spotlight-V100
+.Spotlight-V20
+
+# Network files
+*.density
+
+# ============================================================
+# General Development Files
+# ============================================================
+
+# Node.js (if you use it for KiCad scripts)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python (if you use it for KiCad automation)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE general
+.idea/
+*.swp
+*.swo
+*~
+
+# Shell scripts temp
+*.sh-bak
+
+# Git itself
+.git/
+
+# ============================================================
+# JLC PCB / LCSC Manufacturing (if you generate locally)
+# ============================================================
+
+# BOM CSV from JLC
+jlc_bom.csv
+jlc_pcb.csv
+
+# Component database caches
+*.csv-bak
+
+# ============================================================
+# CI/CD & GitHub Actions (for your automation workflows)
+# ============================================================
+
+# GitHub Actions cache
+.github/actions/cache/
+
+# Temporary build artifacts
+temp/
+tmp/
+*.temp
+*.tmp
+
+# Build outputs (regenerated)
+build/
+out/
